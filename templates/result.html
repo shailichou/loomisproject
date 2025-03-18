@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processed Image</title>
+</head>
+<body>
+    <h2>Processed Image</h2>
+    <img src="{{ url_for('uploaded_file', filename=original) }}" alt="Original Image">
+    <img src="{{ url_for('uploaded_file', filename=processed) }}" alt="Loomis Guidelines">
+    <a href="/">Upload Another</a>
+</body>
+</html>
