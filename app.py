@@ -14,7 +14,7 @@ def generate_loomis_guidelines(image_path):
     center_x, center_y = width // 2, height // 2
     radius = min(width, height) // 3
 
-    # Draw main Loomis circle
+    #main Loomis circle
     cv2.circle(image, (center_x, center_y - radius // 4), radius, (0, 255, 0), 2)
 
     # Vertical and horizontal guidelines

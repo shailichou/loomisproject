@@ -1,4 +1,4 @@
-/* General Page Styling */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -11,13 +11,13 @@ body {
     height: 100vh;
 }
 
-/* Header */
+
 h2 {
     color: #333;
     margin-bottom: 20px;
 }
 
-/* Form Styling */
+
 form {
     background: white;
     padding: 20px;
@@ -48,7 +48,6 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Image Styling */
 img {
     max-width: 100%;
     height: auto;
@@ -57,7 +56,6 @@ img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Links */
 a {
     text-decoration: none;
     color: #007bff;
@@ -70,7 +68,6 @@ a:hover {
     color: #0056b3;
 }
 
-/* History Page Styling */
 ul {
     list-style-type: none;
     padding: 0;
